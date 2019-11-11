@@ -1,0 +1,15 @@
+spring:
+   datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://cashbustest.mysql.rds.aliyuncs.com:3306/cashbus?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false
+      username: cashbusdb
+      password: cashbussha
+   
+   
+mybatis: 
+   config-location: classpath:mybatis-config.xml
+      
+
+logging:
+  level: 
+    com.tao.dao: DEBUG
